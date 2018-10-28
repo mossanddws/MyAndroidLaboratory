@@ -11,7 +11,6 @@ import android.widget.MultiAutoCompleteTextView;
 import android.widget.TextView;
 
 public class TextActivity extends AppCompatActivity {
-
     private TextView textView;
     private EditText plainText;
     private EditText password;
@@ -35,10 +34,13 @@ public class TextActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text);
-        initView();
-        setAllText();
+        initView(); //Bind all the Text Widgets.
+        setAllText();   //Sets each Text Widgets's hint.
     }
 
+    /**
+     *  This method binds all the Text Widgets.
+     */
     private void initView() {
         textView = findViewById(R.id.textView);
         plainText = findViewById(R.id.editText_PlainText);
@@ -60,6 +62,9 @@ public class TextActivity extends AppCompatActivity {
         textInputEditText = findViewById(R.id.textInputEditText);
     }
 
+    /**
+     *  This method sets each Text Widgets's hint.
+     */
     private void setAllText() {
         textView.setHint("This is TextView.");
         plainText.setHint("This is Plain Text.");
