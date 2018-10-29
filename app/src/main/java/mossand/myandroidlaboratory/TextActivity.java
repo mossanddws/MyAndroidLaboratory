@@ -82,6 +82,8 @@ public class TextActivity extends AppCompatActivity {
         autoCompleteTextView.setHint("This is AutoCompleteTextView.");
         multiAutoCompleteTextView.setHint("This is MultiAutoCompleteTextView.");
         checkedTextView.setHint("This is CheckedTextView.");
+        checkedTextView.setText("This is CheckedTextView.");
+        checkedTextView.setChecked(true);
         textInputEditText.setHint("This is TextInputEditText.");
     }
 }
