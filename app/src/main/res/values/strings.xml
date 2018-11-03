@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">My Android Laboratory</string>
-    <string name="autofillHints"></string>
+    <string name="auto_fill_hints"></string>
     <string name="hint"></string>
+    <string name="gravity_x">Gravity_X</string>
+    <string name="gravity_y">Gravity_Y</string>
+    <string name="gravity_z">Gravity_Z</string>
+    <string name="linear_accelerometer_x">Linear_Accelerometer_X</string>
+    <string name="linear_accelerometer_y">Linear_Accelerometer_Y</string>
+    <string name="linear_accelerometer_z">Linear_Accelerometer_Z</string>
 </resources>
