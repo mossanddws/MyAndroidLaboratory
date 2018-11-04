@@ -12,4 +12,5 @@
     <string name="rotation_vector_y">Rotation_Vector_Y</string>
     <string name="rotation_vector_z">Rotation_Vector_Z</string>
     <string name="rotation_vector_scalar">Rotation_Vector_Scalar</string>
+    <string name="content_description"> </string>
 </resources>
